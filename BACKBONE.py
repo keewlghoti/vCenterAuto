@@ -4,19 +4,14 @@ Date:
 Description:
 Instructions:
 Expected Behavior-
-
 How to call-
-
 Methods-
-
 Attributes-
-
 Exceptions that will be raised-
-
 What to pass-
-
 """
 from vCenterAuto import MENUS
+import vCenterAuto.MENUS
 
 class RuntimeMenus:
 
@@ -34,7 +29,7 @@ class RuntimeMenus:
         print('Goodbye')
         exit()
 
-    mainmenuactions = {1: mainmenuoption1, 2: mainmenuoption2, 3: mainmenuoption3}
+    mainmenuactions = {1: mainmenuoption1, 2: mainmenuoption2, 3: mainmenuoption3} method(args)
 
 class Runtime:
     def __init__(self):
